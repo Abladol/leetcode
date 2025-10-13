@@ -1,4 +1,4 @@
-package java_guide;
+package java_base;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,6 +1,5 @@
-import example.java8_function_interface.Sout;
+package review_code;
 
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -13,7 +12,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * Last Modified:
  * @date 2025/9/4 16:07
  */
-class FooBar {
+class _1115_FooBar {
 
     private int n;
     private volatile boolean flag = true;
@@ -21,7 +20,7 @@ class FooBar {
     private Condition fooCondition = lock.newCondition();
     private Condition barCondition = lock.newCondition();
 
-    public FooBar(int n) {
+    public _1115_FooBar(int n) {
         this.n = n;
     }
 

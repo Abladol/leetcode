@@ -1,3 +1,5 @@
+package java_base;
+
 class Foo {
     private int flag = 0;
 
