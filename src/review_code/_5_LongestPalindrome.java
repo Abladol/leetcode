@@ -9,7 +9,7 @@ package review_code;
  * Last Modified:
  * @date 2025/10/12 19:50
  */
-public class _05_LongestPalindrome {
+public class _5_LongestPalindrome {
     public String longestPalindrome(String s) {
         int maxLen = 0;
         int maxLeft = 0;
@@ -45,7 +45,7 @@ public class _05_LongestPalindrome {
     }
 
     public static void main(String[] args) {
-        _05_LongestPalindrome longestPalindrome = new _05_LongestPalindrome();
+        _5_LongestPalindrome longestPalindrome = new _5_LongestPalindrome();
         System.out.println(longestPalindrome.longestPalindrome("bb"));
     }
 }

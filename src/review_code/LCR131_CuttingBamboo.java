@@ -9,7 +9,7 @@ package review_code;
  * Last Modified:
  * @date 2025/10/12 14:07
  */
-public class LCR_131_CuttingBamboo {
+public class LCR131_CuttingBamboo {
     public int cuttingBamboo(int bamboo_len) {
         int[][] dp = new int[bamboo_len - 1][bamboo_len + 1];
         for (int i = 0; i < bamboo_len + 1; i++) {
@@ -29,7 +29,7 @@ public class LCR_131_CuttingBamboo {
     }
 
     public static void main(String[] args) {
-        LCR_131_CuttingBamboo lcr131CuttingBamboo = new LCR_131_CuttingBamboo();
+        LCR131_CuttingBamboo lcr131CuttingBamboo = new LCR131_CuttingBamboo();
         System.out.println(lcr131CuttingBamboo.cuttingBamboo(3));
     }
 }
